@@ -1,4 +1,5 @@
-FROM python:3.8
+#FROM python:3.8
+FROM registry.access.redhat.com/ubi8/python-38
 
 WORKDIR /src
 
