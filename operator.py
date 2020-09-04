@@ -14,6 +14,6 @@ if __name__ == '__main__':
         print("Listing Pods")
         pods = v1.list_pod_for_all_namespaces(watch=False)
         for p in pods:
-            print("Pod Name: %s\tNamespace: %s" % (pod.metadata.name, pod.metadata.namespace)
+            print("Pod Name: %s\tNamespace: %s" % (pod.metadata.name, pod.metadata.namespace))
 
         time.sleep(120)
